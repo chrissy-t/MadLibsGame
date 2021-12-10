@@ -44,5 +44,5 @@ var bodyParts = document.getElementsByClassName('body-part');
 var bodyPartsList = ['head', 'knee','elbow','tongue', 'nose','lip', 'bottom', 'neck', 'finger', 'eyeball'];
 for (var b = 0; b < bodyParts.length; b++) {
 var random = Math.floor(Math.random() * bodyPartsList.length);
-  bodyParts[i].textContent = bodyPartsList[random];
+  bodyParts[b].textContent = bodyPartsList[random];
  }
